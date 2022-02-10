@@ -1,0 +1,33 @@
+*
+{
+    border-radius: 6px;
+}
+.outerDiv
+{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: bisque;
+}
+form
+{
+    padding: 40px;
+    background-color: pink;
+    text-align: center;
+    box-shadow: 1px 1px 3px;
+
+}
+input[type="submit"]
+{
+    margin-top: 20px;
+}
+input[type="submit"]:hover
+{
+    cursor:pointer;
+}
+input
+{
+    border-style: none;
+    border: 1px solid;
+}

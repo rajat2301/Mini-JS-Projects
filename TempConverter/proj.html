@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outerDiv">
+        <div class="form">
+            <form id="tempCal" onsubmit="calTemp(); return false">
+                <p>Please enter the temperature to convert</p>
+                <input type="number" name="tempvalue" id="tempvalue">
+                <select name="temp" id="temp">
+                    <option value="cel">Celcius</option>
+                    <option value="fah">Fahrenheit</option>
+                </select>
+                <br/><input type="submit" value="Submit">
+                <p id="result"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
