@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bulbonoff.css">
+</head>
+<body>
+    <div class="container">
+        <h3 id="heading">Can you turn on the light?</h3>
+        <p id="image">
+            <img src="images/bulboff.png" alt="bulboff">
+        </p>
+        <div class="btn">
+            <button id="onBtn" onclick=turnon()>Turn on</button>
+            <button id="offBtn" onclick=turnoff()>Turn off</button>
+        </div>
+    </div>
+
+    <script>
+        const heading = document.querySelector('#heading')
+        const img = document.querySelector('#image')
+        const turnon = () => {
+            heading.innerHTML = "The light is on";
+            img.innerHTML = `<img src="images/bulbon.png" >`
+        }
+        const turnoff = () => {
+            heading.innerHTML = "The light is off";
+            img.innerHTML = `<img src="images/bulboff.png" style="width:150px">`
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body
+{
+    background-color: darkcyan;
+}
+.container
+{
+    margin-top: 200px;
+    display: grid;
+    justify-items: center;
+}
+#heading
+{
+    font-size: 35px;
+}
+div.btn
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+}
+button
+{
+    padding: 4px 10px;
+}
+button:hover
+{
+    transition: scale(1.1);
+    box-shadow: 0px 0px 5px;
+}
+img
+{
+    width: 150px;
+}
+p#image
+{
+    height: 150px;
+}
