@@ -1,0 +1,36 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+.OuterDiv
+{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv
+{
+    display: flex;
+}
+
+.container
+{
+    padding: 50px;
+    display: grid;
+    justify-items: center;
+}
+
+.counter
+{
+    padding: 20px 0px;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.container p
+{
+    font-size: 20px;
+}
