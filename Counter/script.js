@@ -9,7 +9,9 @@ counters.forEach((counter)=>{
         const incr = targetCount/200;
         if(startingCount < targetCount)
         {
-            counter.innerHTML = `${startingCount + incr}`;
+            counter.innerHTML = `${Math.round(startingCount + incr)}`;
+        }else{
+            counter.innerHTML = targetCount; 
         }
         setTimeout(updateCounter,30);
     }
